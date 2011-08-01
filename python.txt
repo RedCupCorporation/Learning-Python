@@ -1,0 +1,73 @@
+python - runs python in terminal
+CTRL-D (^D) - exits python in terminal
+mkdir - terminal command for creating a new directory, accepts directory name as argument
+cd - terminal command for changing directories, accepts directory name as argument
+ls - terminal command for listing contents of directory
+
+print - prints what follows
+# (octothorpe/pound) - comments out what follows
+
++ (plus) - addition
+- (minus) - subtraction
+/ (slash) - division
+* (asterisk) - multiplication
+% (percent/modulus) - modulo
+< - less-than
+> - greater-than
+<= - less-than-or-equal
+>= - greater-than-or-equal
+floating point - system for representing real numbers (significant digits and decimal point), without adding ".0" python assumes numbers are integers
+
+= (equals) - defines a variable
+, (comma) - separates multiple arguments
+_ (underscore) - combines multiple words without a space
+
+" (double-quotes) - creates a string
+' (single-quotes) - creates a string
+% varible_name - format string, replaces format character in string with variable
+%s - format character for a variable string
+%d - format character for a variable number
+%r - format character for whatever the variable is, entered in the string in single-quotes
+
+() (parenthesis) - contains a list of arguments separated by commas
++ - combines multiple strings without space when printed
+* - provides multiple copies of a string when printed
+(tab) - allows for continuation of the previous line
+
+\n (new line character) - escape sequence that creates a new line within a string
+\t (tab character) - escape sequence that creates a tab within a string
+\\ (double back-slash) - escape sequence that creates a back-slash within a string
+""" - creates a string that can span multiple lines
+''' - creates a string that can span multiple lines
+\ (back-slash) - escapes the following character
+
+raw_input() - prompts the user for input, can store to a variable
+pydoc - terminal command that reveals documentation for python commands, accepts python command as argument
+q - quits out of pydoc
+import - adds features to script from Python feature set
+argv (argument variable) - variable that holds arguments passed in when the script is run
+(unpack) - argv is unpacked by assigning variable names in order, separated by commas, then "= argv"
+module/library - the feature that is imported (e.g. "sys" in "from sys import argv")
+sys - module for importing arguments from terminal
+
+open() - opens a file and assigns it to a variable ("txt = open(filename)")
+command/function/method - gives a command to the variable that precedes it
+.read() - command that reads a file
+.close() - command that closes and saves a file
+.readline() - reads just one line of a text file
+.truncate() - empties a file
+.write() - writes stuff to a file
+
+os.path - module for importing exists command
+len() - returns the length (bytes) of a string
+exists() - returns TRUE if file exists
+cat - terminal command for reading files (short for concatenate)
+man - terminal command that reveals documentation for terminal
+
+def - defines a function
+*args - packs together a group of arguments, like argv for functions
+run/call/use - different names for running a function
+
+.seek() - advances to a particular place in a file
++= - shorthand for adding 1 to a variable (e.g. "x += x" adds 1 to x)
+return - returns a value from a function

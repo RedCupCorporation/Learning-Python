@@ -1,0 +1,15 @@
+start off function with "def"
+function name should have only characters and underscores
+put open parenthesis right after the function name
+put function arguments after the parenthesis separated by commas
+don't duplicate function names
+close the parenthesis after the arguments and put a colon
+indent all the lines of code to be included in the function - four spaces
+end the function by ending the indentations
+
+when calling a function:
+
+type its name
+type open parenthesis after function name
+put arguments inside parenthesis
+end the funcion call with a close parenthesis
